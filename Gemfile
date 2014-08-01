@@ -10,13 +10,13 @@ group :development, :test do
 end
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
-gem 'sprockets'
+gem 'sprockets', '~> 2.8', '<= 2.11.0'
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
 end
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.2'
+gem 'sass-rails', '~> 4.0.0', '>= 4.0.2'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
