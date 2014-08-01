@@ -8,6 +8,9 @@ group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
 end
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+gem 'sprockets'
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
